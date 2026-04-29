@@ -1,0 +1,27 @@
+{
+  "name": "postgres-and-sql-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanubalti786/postgres-and-sql-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanubalti786/postgres-and-sql-database/issues"
+  },
+  "homepage": "https://github.com/fanubalti786/postgres-and-sql-database#readme",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/pg": "^8.20.0",
+    "express": "^5.2.1",
+    "pg": "^8.20.0",
+    "typescript": "^6.0.3"
+  }
+}
